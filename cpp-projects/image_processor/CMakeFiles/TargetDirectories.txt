@@ -1,0 +1,3 @@
+/Users/pvadim/projects/helloworld/eda-233-2-Vadim-Pastushenko-bonchinchi/tasks/image_processor/CMakeFiles/image_processor.dir
+/Users/pvadim/projects/helloworld/eda-233-2-Vadim-Pastushenko-bonchinchi/tasks/image_processor/CMakeFiles/edit_cache.dir
+/Users/pvadim/projects/helloworld/eda-233-2-Vadim-Pastushenko-bonchinchi/tasks/image_processor/CMakeFiles/rebuild_cache.dir

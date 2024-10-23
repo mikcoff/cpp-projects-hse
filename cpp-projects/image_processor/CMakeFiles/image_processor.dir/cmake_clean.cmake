@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/image_processor.dir/filters/blur.cpp.o"
+  "CMakeFiles/image_processor.dir/filters/blur.cpp.o.d"
+  "CMakeFiles/image_processor.dir/filters/convolution.cpp.o"
+  "CMakeFiles/image_processor.dir/filters/convolution.cpp.o.d"
+  "CMakeFiles/image_processor.dir/filters/crop.cpp.o"
+  "CMakeFiles/image_processor.dir/filters/crop.cpp.o.d"
+  "CMakeFiles/image_processor.dir/filters/edge_detection.cpp.o"
+  "CMakeFiles/image_processor.dir/filters/edge_detection.cpp.o.d"
+  "CMakeFiles/image_processor.dir/filters/glass.cpp.o"
+  "CMakeFiles/image_processor.dir/filters/glass.cpp.o.d"
+  "CMakeFiles/image_processor.dir/filters/greyscale.cpp.o"
+  "CMakeFiles/image_processor.dir/filters/greyscale.cpp.o.d"
+  "CMakeFiles/image_processor.dir/filters/negative.cpp.o"
+  "CMakeFiles/image_processor.dir/filters/negative.cpp.o.d"
+  "CMakeFiles/image_processor.dir/filters/point_filter.cpp.o"
+  "CMakeFiles/image_processor.dir/filters/point_filter.cpp.o.d"
+  "CMakeFiles/image_processor.dir/filters/sharpening.cpp.o"
+  "CMakeFiles/image_processor.dir/filters/sharpening.cpp.o.d"
+  "CMakeFiles/image_processor.dir/image/Image.cpp.o"
+  "CMakeFiles/image_processor.dir/image/Image.cpp.o.d"
+  "CMakeFiles/image_processor.dir/image/RGB.cpp.o"
+  "CMakeFiles/image_processor.dir/image/RGB.cpp.o.d"
+  "CMakeFiles/image_processor.dir/image/matrix.cpp.o"
+  "CMakeFiles/image_processor.dir/image/matrix.cpp.o.d"
+  "CMakeFiles/image_processor.dir/io/args.cpp.o"
+  "CMakeFiles/image_processor.dir/io/args.cpp.o.d"
+  "CMakeFiles/image_processor.dir/io/open_save.cpp.o"
+  "CMakeFiles/image_processor.dir/io/open_save.cpp.o.d"
+  "CMakeFiles/image_processor.dir/pipeline/image_processor.cpp.o"
+  "CMakeFiles/image_processor.dir/pipeline/image_processor.cpp.o.d"
+  "CMakeFiles/image_processor.dir/pipeline/pipeline.cpp.o"
+  "CMakeFiles/image_processor.dir/pipeline/pipeline.cpp.o.d"
+  "image_processor"
+  "image_processor.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/image_processor.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
