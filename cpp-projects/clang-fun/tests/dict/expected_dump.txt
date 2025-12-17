@@ -1,0 +1,174 @@
+files(5)
+- bit_field.cpp
+  bad_names(20)
+    - bit_field.h:7 TBitField entity=2
+    - bit_field.h:10 BitLen entity=1
+    - bit_field.h:11 MemLen entity=1
+    - bit_field.h:12 pMem entity=1
+    - bit_field.h:14 TBitField entity=4
+    - bit_field.h:15 TBitField entity=4
+    - bit_field.h:16 TBitField entity=4
+    - bit_field.h:17 ~TBitField entity=4
+    - bit_field.h:20 n entity=3
+    - bit_field.h:22 n entity=3
+    - bit_field.h:23 n entity=3
+    - bit_field.cpp:7 TBitField entity=4
+    - bit_field.cpp:17 TBitField entity=4
+    - bit_field.cpp:34 TBitField entity=4
+    - bit_field.cpp:45 ~TBitField entity=4
+    - bit_field.cpp:50 n entity=3
+    - bit_field.cpp:57 n entity=3
+    - bit_field.cpp:64 n entity=3
+    - bit_field.cpp:78 n entity=3
+    - bit_field.cpp:191 Source entity=0
+  mistakes(13)
+    - bit_field.h:22 GetMemIndex 'Index'->'idea'
+    - bit_field.h:23 GetMemMask 'Mask'->'ask'
+    - bit_field.h:24 GetLenght 'Lenght'->'eight'
+    - bit_field.h:31 istr 'istr'->'into'
+    - bit_field.h:32 ostr 'ostr'->'cost'
+    - bit_field.cpp:73 GetMemIndex 'Index'->'idea'
+    - bit_field.cpp:78 GetMemMask 'Mask'->'ask'
+    - bit_field.cpp:83 GetLenght 'Lenght'->'eight'
+    - bit_field.cpp:139 temp 'temp'->'deep'
+    - bit_field.cpp:159 temp 'temp'->'deep'
+    - bit_field.cpp:174 temp 'temp'->'deep'
+    - bit_field.cpp:183 istr 'istr'->'into'
+    - bit_field.cpp:212 ostr 'ostr'->'cost'
+- set.cpp
+  bad_names(41)
+    - bit_field.h:7 TBitField entity=2
+    - bit_field.h:10 BitLen entity=1
+    - bit_field.h:11 MemLen entity=1
+    - bit_field.h:12 pMem entity=1
+    - bit_field.h:14 TBitField entity=4
+    - bit_field.h:15 TBitField entity=4
+    - bit_field.h:16 TBitField entity=4
+    - bit_field.h:17 ~TBitField entity=4
+    - bit_field.h:20 n entity=3
+    - bit_field.h:22 n entity=3
+    - bit_field.h:23 n entity=3
+    - set.h:5 TSet entity=2
+    - set.h:8 MaxPower entity=1
+    - set.h:9 BitField entity=1
+    - set.h:11 TSet entity=4
+    - set.h:11 maxPower entity=0
+    - set.h:12 TSet entity=4
+    - set.h:13 TSet entity=4
+    - set.h:16 n entity=3
+    - set.h:17 n entity=3
+    - set.h:21 set_ entity=0
+    - set.h:23 Set entity=0
+    - set.h:24 n entity=3
+    - set.h:25 n entity=3
+    - set.h:27 _ist entity=0
+    - set.h:27 bf_ entity=0
+    - set.cpp:3 TSet entity=4
+    - set.cpp:3 maxPower entity=0
+    - set.cpp:7 TSet entity=4
+    - set.cpp:11 TSet entity=4
+    - set.cpp:11 BF entity=0
+    - set.cpp:25 N entity=3
+    - set.cpp:30 nN entity=3
+    - set.cpp:35 _ entity=0
+    - set.cpp:49 tmpB entity=0
+    - set.cpp:56 tmpB entity=0
+    - set.cpp:61 n entity=3
+    - set.cpp:64 BB entity=0
+    - set.cpp:69 n entity=3
+    - set.cpp:72 BB entity=0
+    - set.cpp:78 tmpB entity=0
+  mistakes(15)
+    - bit_field.h:22 GetMemIndex 'Index'->'idea'
+    - bit_field.h:23 GetMemMask 'Mask'->'ask'
+    - bit_field.h:24 GetLenght 'Lenght'->'eight'
+    - bit_field.h:31 istr 'istr'->'into'
+    - bit_field.h:32 ostr 'ostr'->'cost'
+    - set.h:16 InsElem 'Elem'->'else'
+    - set.h:17 DelElem 'Elem'->'else'
+    - set.cpp:20 InsElem 'Elem'->'else'
+    - set.cpp:25 DelElem 'Elem'->'else'
+    - set.cpp:50 temp 'temp'->'deep'
+    - set.cpp:57 temp 'temp'->'deep'
+    - set.cpp:79 temp 'temp'->'deep'
+    - set.cpp:83 istr 'istr'->'into'
+    - set.cpp:85 temp 'temp'->'deep'
+    - set.cpp:102 ostr 'ostr'->'cost'
+- some.cpp
+  bad_names(2)
+    - some.cpp:3 Test_ entity=4
+    - some.cpp:3 Test entity=0
+  mistakes(4)
+    - some.cpp:10 WrpngSomg 'Wrpng'->'wrong'
+    - some.cpp:10 WrpngSomg 'Somg'->'some'
+    - some.cpp:11 ~WrpngSomg 'Wrpng'->'wrong'
+    - some.cpp:11 ~WrpngSomg 'Somg'->'some'
+- sorting.cpp
+  bad_names(0)
+  mistakes(27)
+    - sorting.cpp:6 BubbleSort 'Bubble'->'able'
+    - sorting.cpp:6 sequence 'sequence'->'science'
+    - sorting.cpp:7 iteration 'iteration'->'operation'
+    - sorting.cpp:18 SelectionSort 'Selection'->'election'
+    - sorting.cpp:18 sequence 'sequence'->'science'
+    - sorting.cpp:19 left_border 'border'->'order'
+    - sorting.cpp:22 min_element_index 'element'->'event'
+    - sorting.cpp:22 min_element_index 'index'->'idea'
+    - sorting.cpp:29 OutputSequence 'Output'->'out'
+    - sorting.cpp:29 OutputSequence 'Sequence'->'science'
+    - sorting.cpp:30 sequence 'sequence'->'science'
+    - sorting.cpp:38 TestBubbleSort 'Bubble'->'able'
+    - sorting.cpp:38 test_sequence 'sequence'->'science'
+    - sorting.cpp:39 correct_answer 'correct'->'current'
+    - sorting.cpp:40 sequence 'sequence'->'science'
+    - sorting.cpp:52 RunUnitTests 'Tests'->'test'
+    - sorting.cpp:72 GetRandomSequence 'Random'->'and'
+    - sorting.cpp:72 GetRandomSequence 'Sequence'->'science'
+    - sorting.cpp:72 modulo 'modulo'->'model'
+    - sorting.cpp:73 sequence 'sequence'->'science'
+    - sorting.cpp:74 element 'element'->'event'
+    - sorting.cpp:80 RunStressTest 'Stress'->'street'
+    - sorting.cpp:81 max_modulo 'modulo'->'model'
+    - sorting.cpp:86 modulo 'modulo'->'model'
+    - sorting.cpp:88 attempt 'attempt'->'accept'
+    - sorting.cpp:89 test_sequence 'sequence'->'science'
+    - sorting.cpp:90 correct_answer 'correct'->'current'
+- test_file.cpp
+  bad_names(16)
+    - test_file.cpp:7 bad entity=4
+    - test_file.cpp:12 point entity=2
+    - test_file.cpp:13 point entity=4
+    - test_file.cpp:16 point entity=4
+    - test_file.cpp:19 value entity=4
+    - test_file.cpp:24 ABAcaba entity=2
+    - test_file.cpp:26 ABACaBA entity=2
+    - test_file.cpp:27 aBACaBAC entity=2
+    - test_file.cpp:28 ABACABA entity=2
+    - test_file.cpp:29 ABAcaBA entity=2
+    - test_file.cpp:30 Abacaba1 entity=2
+    - test_file.cpp:34 BuildDSUnion entity=4
+    - test_file.cpp:34 bac42 entity=0
+    - test_file.cpp:38 Foo15 entity=4
+    - test_file.cpp:40 FooABa entity=4
+    - test_file.cpp:48 a1 entity=0
+  mistakes(20)
+    - test_file.h:3 Privat 'Privat'->'private'
+    - test_file.h:7 Grop 'Grop'->'drop'
+    - test_file.h:8 kTrun 'Trun'->'run'
+    - test_file.h:11 Prcle 'Prcle'->'price'
+    - test_file.h:13 Thret 'Thret'->'threat'
+    - test_file.h:14 foood_ 'foood'->'food'
+    - test_file.h:17 NotceHundreadArticles 'Notce'->'note'
+    - test_file.h:17 NotceHundreadArticles 'Hundread'->'hundred'
+    - test_file.h:17 NotceHundreadArticles 'Articles'->'article'
+    - test_file.cpp:4 Maesure 'Maesure'->'measure'
+    - test_file.cpp:25 ABACaba 'Caba'->'baby'
+    - test_file.cpp:36 CreateASTMatcher 'Matcher'->'father'
+    - test_file.cpp:41 FOOABa 'FOOA'->'food'
+    - test_file.cpp:44 cenutry 'cenutry'->'century'
+    - test_file.cpp:44 sill 'sill'->'bill'
+    - test_file.cpp:46 just_some_realy_llong_name_babe 'realy'->'ready'
+    - test_file.cpp:46 just_some_realy_llong_name_babe 'llong'->'along'
+    - test_file.cpp:46 just_some_realy_llong_name_babe 'babe'->'baby'
+    - test_file.cpp:50 kGramarNazi 'Gramar'->'game'
+    - test_file.cpp:50 kGramarNazi 'Nazi'->'name'
